@@ -40,10 +40,15 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    "nuxt-web3",
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  web3: {
+    provider: "http://127.0.0.1:7545"
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
